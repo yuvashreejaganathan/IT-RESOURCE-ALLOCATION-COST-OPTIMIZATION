@@ -133,10 +133,11 @@ JOIN Employee_Project ep ON e.EmployeeID = ep.EmployeeID
 GROUP BY e.Department
 ORDER BY Total_Hours DESC;
 
--- 12. Find employees with no project allocation
+-- Find employees with no project allocation
 SELECT e.EmployeeName, e.Department
 FROM Employees e
 LEFT JOIN Employee_Project ep ON e.EmployeeID = ep.EmployeeID
 WHERE ep.EmployeeID IS NULL;
+
 
 
