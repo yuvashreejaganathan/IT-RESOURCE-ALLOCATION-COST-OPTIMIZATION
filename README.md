@@ -40,9 +40,8 @@ This Project aims to:
 
 - SQL Server (DDL, DML, Joins, Aggregates, CTEs)
 - ER Diagrams for schema visualization
-- CSV datasets for realistic project simulation
-
-GitHub for version control
+- datasets for realistic project simulation
+- GitHub for version control
 ---
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
